@@ -1,0 +1,315 @@
+<html>
+	<head>
+	    <link href="https://fonts.googleapis.com/css?family=Blinker|Hind|Roboto+Condensed|Source+Sans+Pro&display=swa" rel="stylesheet">
+    	<style>
+			body {
+			  background: url("images/fondo.jpg") no-repeat center;
+			  background-size: auto 100%;
+			  background-repeat:repeat-x;
+			  background-position:left;
+			  margin:0;
+			  height:100%;
+			  width: 100%;
+			}
+			.cFondoMenu {
+				background-image:url(images/menu-lateral/fondo-menu.png);
+				background-repeat:repeat;
+			}
+				.cNumero {
+		font-family:'Blinker';
+		color:#000000;
+		font-size:60px;
+	}
+	.cNumeral {
+		font-family:'Blinker';
+		color:#000000;
+		font-size:25px;
+		text-transform:uppercase;
+	}
+			/**************************/
+			@import url('https://fonts.googleapis.com/css?family=Blinker|Hind|Roboto+Condensed|Source+Sans+Pro&display=swap');
+	.titulo {
+		font-family:'Hind';
+		color:#036;
+		font-size:18px;
+	}
+	.descripcion {
+		font-family:'Blinker';
+		color:#141E41;
+		font-size:12px;
+	}	
+	
+	.datoTabla {
+		font-family:'Blinker';
+		color:#036;
+		font-size:20px;
+	}
+	
+	.subTituloPosiciones {
+		font-family:'Blinker';
+		color:#141E41;
+		font-size:10px;
+	}	
+	
+	
+	.descripcionGrande {
+		font-family:'Blinker';
+		color:#ffffff;
+		font-size:16px;
+	}
+	.descripcionPequena {
+		font-family:'Blinker';
+		color:#FFFFFF;
+		font-size:13px;
+		text-transform:uppercase;
+	}
+	.instagram {
+			font-family:'Blinker';
+		color:#141E41;
+		font-size:12px;
+		text-decoration:none;
+	}
+			
+			/*********TOOLTIP*************/
+			.tooltip {
+				display:inline-block;
+				position:relative;
+				text-align:left;
+			}
+			
+			.tooltip .right {
+				min-width:200px; 
+				top:1%;
+				left:100%;
+				margin-left:20px;
+				transform:translate(0, -15);
+				padding:10px 20px;
+				color:#000000; /*color del texto*/
+				background-image:url(images/menu-lateral/fondo-menu.png);
+				background-repeat:repeat;
+				font-weight:normal;
+				font-size:13px;
+				border-radius:8px;
+				position:absolute;
+				z-index:99999999;
+				box-sizing:border-box;
+				box-shadow:0 1px 8px rgba(0,0,0,0.5);
+				visibility:hidden; opacity:0; transition:opacity 0.8s;
+			}
+			
+			.tooltip:hover .right {
+				visibility:visible; opacity:1;
+			}
+			
+			.tooltip .right i {
+				position:absolute;
+				top:15;
+				right:100%;
+				margin-top:-12px;
+				width:12px;
+				height:24px;
+				overflow:hidden;
+			}
+			
+			.tooltip .right i::after {
+				content:'';
+				position:absolute;
+				width:12px;
+				height:12px;
+				left:0;
+				top:50%;
+				transform:translate(50%,-50%) rotate(-45deg);
+				background-color:#ffffff;
+				box-shadow:0 1px 8px rgba(0,0,0,0.5);
+			}
+		</style>
+    </head>
+    <body>
+    	<table cellpadding="0" cellspacing="0" height="100%">
+        	<tr>
+            	<td>
+                    <table cellpadding="5" cellspacing="0" height="100%">
+                        <tr>
+                            <td class="cFondoMenu" valign="top" align="center">
+                                <table>
+                                    <tr>
+                                        <td height="100%" align="center">
+                                            <div class="btn btn-primary tooltip">
+												<a href="editorial-0.html" >
+													<img src="images/iconos/espiral.png" width="23"  />
+												</a>
+                                                <div class="right">
+                                             		<img src="images/fondo.jpg" width="160" style="border:solid 1px #fff" /> 
+                                                    <table cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td class="descripcionGrande">
+                                                            	EDITORIAL
+                                                            </td>
+                                                        </tr>
+                                                    	<tr>
+                                                        	<td class="descripcionPequena">
+                                                            	Texto de resumen
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                             <div class="btn btn-primary tooltip"><img src="images/iconos/piramide.png" width="28"  />
+                                                <div class="right">
+                                             <img src="images/hogar.jpg" width="160" style="border:solid 1px #fff" /> 
+                                             <table cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td class="descripcionGrande">
+                                                            	PROYECTOS
+                                                            </td>
+                                                        </tr>
+                                                    	<tr>
+                                                        	<td class="descripcionPequena">
+                                                            	Texto de resumen
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>     
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                            <div class="btn btn-primary tooltip"><img src="images/iconos/estrella.png" width="28"  />
+                                                <div class="right">
+                                             <img src="images/cronograma.jpg" width="160" style="border:solid 1px #fff" /> 
+                                             <table cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td class="descripcionGrande">
+                                                            	ARTICULOS
+                                                            </td>
+                                                        </tr>
+                                                    	<tr>
+                                                        	<td class="descripcionPequena">
+                                                            	Texto de resumen
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>    
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                            <div class="btn btn-primary tooltip"><img src="images/iconos/infinito.png" width="26"  />
+                                                <div class="right">
+                                             <img src="images/hogar.jpg" width="160" style="border:solid 1px #fff" /> 
+                                             <table cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td class="descripcionGrande">
+                                                            	PROYECTOS
+                                                            </td>
+                                                        </tr>
+                                                    	<tr>
+                                                        	<td class="descripcionPequena">
+                                                            	Texto de resumen
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>                                                                                                                                        
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cFondoMenu" valign="bottom" align="center">
+                                <table>
+                                    <tr>
+                                        <td height="100%" align="center">
+                                            
+                                            <div class="btn btn-primary tooltip"><img src="images/iconos/marcador.png" width="20"  />
+                                                <div class="right">
+                                                     <table cellpadding="0" cellspacing="0">
+                                                    	<tr>
+                                                        	<td class="descripcionGrande">
+                                                            	INSTITUCIONAL
+                                                            </td>
+                                                        </tr>
+                                             	     </table>
+                                                    <i></i>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>      
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                            <img src="images/iconos/grilla.png" width="20"  />
+                                        </td>
+                                    </tr>    
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                            <img src="images/iconos/libro.png" width="20"  />
+                                        </td>
+                                    </tr>    
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+                                            <img src="images/iconos/nube.png" width="20"  />
+                                        </td>
+                                    </tr>                                                                                     
+                                    <tr>
+                                        <td height="100%" align="center" style="padding-top:10px">
+											<a href="http://www.ibeltran.com.ar" target="_blank" >
+												<img src="images/menu-lateral/iso-beltran.png" width="26"  />
+											</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>            
+                    </table>
+               </td>
+               <td style="vertical-align:top; ">
+               		<table height="100%" cellpadding="0" cellspacing="0">
+                    	<tr>
+                        	<td style="padding-left:250px; ">
+			                   <img src="images/logo-solida.png" width="160" style="border:solid 3px #000000" />                            
+                            </td>
+                            <td style="vertical-align:bottom;padding-left:240px; padding-bottom:20px">
+                            	<table cellpadding="0" cellspacing="0">
+                                	<tr>
+                                    	<td style="text-align:right; vertical-align:baseline; padding:0px">
+                                        	<span class="cNumeral" >#</span><span class="cNumero">0</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td class="cFondoMenu" style="padding:20px">
+                                        	<table cellpadding="0" cellspacing="0">
+                                            	<tr>
+                                                    <td class="descripcionGrande">
+                                                        NOMBRE DEL ARTISTA
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" class="descripcionPequena">
+                                                        Nombre de la obra
+                                                    </td>
+                                                </tr>       	                                           
+                                            </table>
+											                                                                        	
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+               </td>
+            </tr>
+        </table>
+    </body>
+</html>
